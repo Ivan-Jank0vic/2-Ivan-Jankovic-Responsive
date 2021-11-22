@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.box{
+    position: absolute;
+    width: 362px;
+    height: 343px;
+    left: 40px;
+    top: 40px;
+    
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cpu{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 151px;
+    top: 57px;
+}
+
+.text p1{
+    position: absolute;
+    width: 272px;
+    height: 62px;
+    left: 45px;
+    top: 135px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #000000;
+}
+
+.text p2{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: -30px;  /*Ovo je pogresno, ali radi, ali, pogresno je */
+    top: 65px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+     
+    color: #8F8F8F;
+}
+
+.text p3{
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 120px;    /*Ovo je isto kao i gornji komentar*/
+    top: 45px;
+    
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+@media (min-width: 500px) { /*ono sto se promjeni kad udemo u desktop*/
+    .box{
+    width: 950px;  
+    text-align: left;
+    }
+
+.cpu{    
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+    }
+
+.text p1 {
+    
+    width: 406px;
+    height: 90px;
+    left: 28px;
+   
+    font-size: 30px;
+    line-height: 45px;   
+    }
+
+.text p2 {    
+    width: 395px;
+    height: 52px;
+    left: 0px;
+    top: 80px;
+   
+    font-size: 16px;
+    line-height: 26px;    
+    }
+
+.text p3 {    
+    width: 140px;  
+    left: 0px;
+    top: 70px;
+    }
+}
